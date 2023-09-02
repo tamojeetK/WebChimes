@@ -32,24 +32,31 @@ body,html{
 
 }
 
-div[data-key="A"], [data-key="L"] {
+.pressed{
+    /* border-radius: 0px 0px 50px 50px; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    mix-blend-mode: soft-light;
+}
+
+
+div[data-key="a"], [data-key="l"] {
     background-color: #007f5f;
     height: 15vh;
 }
-div[data-key="S"], [data-key="K"] {
+div[data-key="s"], [data-key="k"] {
     background-color: #2b9348;
     height: 25vh;
 }
-div[data-key="D"], [data-key="J"] {
+div[data-key="d"], [data-key="j"] {
     background-color: #55a630;
     height: 35vh;
 }
 
-div[data-key="F"], [data-key="H"] {
+div[data-key="f"], [data-key="h"] {
     background-color: #80b918;
     height: 45vh;
 }
-div[data-key="G"]{
+div[data-key="g"]{
     background-color: #aacc00;
     height: 55vh;
 }
