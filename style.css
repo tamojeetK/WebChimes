@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-board{
+    display: flex;
+    border: 1px solid grey;
+    padding: 5vw;    
+}
+
+.main-keys{
+    border: solid #fff;
+    border-radius: 0px 0px 50px 50px;
+    width: 3vw;
+    padding: 2vw;
+    margin: 0px 0.5vw;
+
+    text-align: center;
+}
+
+div[data-key="A"], [data-key="L"] {
+    background-color: red;
+    height: vh;
+
+}
+
+div[data-key="S"], [data-key="K"] {
+    background-color: yellow;
+
+}
