@@ -5,7 +5,7 @@
 
 body,html{
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,27 +14,42 @@ body,html{
 
 .main-board{
     display: flex;
-    border: 1px solid grey;
-    padding: 5vw;    
+    background-color: #5e3023;
+    padding: 2vw 5vw 4vw;    
+    border-radius: 20px;
+    /* border: 1px solid blue; */
 }
 
 .main-keys{
-    border: solid #fff;
+    /* border: solid #fff; */
+    cursor: pointer;
     border-radius: 0px 0px 50px 50px;
-    width: 3vw;
+    width: 1vw;
     padding: 2vw;
     margin: 0px 0.5vw;
+    font-family: "Neue Machina";
+    font-size: 2.2vw;
 
-    text-align: center;
 }
 
 div[data-key="A"], [data-key="L"] {
-    background-color: red;
-    height: vh;
-
+    background-color: #007f5f;
+    height: 15vh;
+}
+div[data-key="S"], [data-key="K"] {
+    background-color: #2b9348;
+    height: 25vh;
+}
+div[data-key="D"], [data-key="J"] {
+    background-color: #55a630;
+    height: 35vh;
 }
 
-div[data-key="S"], [data-key="K"] {
-    background-color: yellow;
-
+div[data-key="F"], [data-key="H"] {
+    background-color: #80b918;
+    height: 45vh;
+}
+div[data-key="G"]{
+    background-color: #aacc00;
+    height: 55vh;
 }
