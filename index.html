@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="main-board">
-        <div data-key="a" data-keyCode="65" class="main-keys ">E</div>
-        <div data-key="s" data-keyCode="83" class="main-keys">C</div>
-        <div data-key="d" data-keyCode="68" class="main-keys">A</div>
-        <div data-key="f" data-keyCode="70" class="main-keys">F</div>
-        <div data-key="g" data-keyCode="71" class="main-keys">Eb</div>
-        <div data-key="h" data-keyCode="72" class="main-keys">G</div>
-        <div data-key="j" data-keyCode="74" class="main-keys">Bb</div>
-        <div data-key="k" data-keyCode="75" class="main-keys">D</div>
-        <div data-key="l" data-keyCode="76" class="main-keys">F</div>
+        <div class="bar-above"></div>
+        <div class="bar-below"></div>
+        <div data-key="a" data-keyCode="65" class="main-keys">E<div class="submain-key">A</div>
+        </div>
+        <div data-key="s" data-keyCode="83" class="main-keys">C<div class="submain-key">S</div>
+        </div>
+        <div data-key="d" data-keyCode="68" class="main-keys">A<div class="submain-key">D</div>
+        </div>
+        <div data-key="f" data-keyCode="70" class="main-keys">F<div class="submain-key">F</div>
+        </div>
+        <div data-key="g" data-keyCode="71" class="main-keys">Eb<div class="submain-key">G</div>
+        </div>
+        <div data-key="h" data-keyCode="72" class="main-keys">G<div class="submain-key">H</div>
+        </div>
+        <div data-key="j" data-keyCode="74" class="main-keys">Bb<div class="submain-key">J</div>
+        </div>
+        <div data-key="k" data-keyCode="75" class="main-keys">D<div class="submain-key">K</div>
+        </div>
+        <div data-key="l" data-keyCode="76" class="main-keys">F<div class="submain-key">L</div>
+        </div>
     </div>
 
 
@@ -24,11 +37,12 @@
     <audio data-key="s" data-keyCode="83" src="./audio/C1.mp3"></audio>
     <audio data-key="d" data-keyCode="68" src="./audio/A1.mp3"></audio>
     <audio data-key="f" data-keyCode="70" src="./audio/F1.mp3"></audio>
-    <audio data-key="g" data-keyCode="71"  src="./audio/Eb2.mp3"></audio>
-    <audio data-key="h" data-keyCode="72"  src="./audio/G2.mp3"></audio>
+    <audio data-key="g" data-keyCode="71" src="./audio/Eb2.mp3"></audio>
+    <audio data-key="h" data-keyCode="72" src="./audio/G2.mp3"></audio>
     <audio data-key="j" data-keyCode="74" src="./audio/Bb1.mp3"></audio>
     <audio data-key="k" data-keyCode="75" src="./audio/D1.mp3"></audio>
     <audio data-key="l" data-keyCode="76" src="./audio/F2.mp3"></audio>
     <script src="main.js"></script>
 </body>
+
 </html>

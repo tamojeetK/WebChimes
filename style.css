@@ -1,61 +1,126 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Dorsa&family=Pompiere&family=Rationale&family=Teko:wght@300&family=Tulpen+One&family=Wire+One&family=Yomogi&family=Zen+Loop&display=swap');
 
-body,html{
-    background-color: #000;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+  * {
+      margin: 0;
+      padding: 0;
+  }
 
-.main-board{
-    display: flex;
-    background-color: #5e3023;
-    padding: 2vw 5vw 4vw;    
-    border-radius: 20px;
-    /* border: 1px solid blue; */
-}
+  body,
+  html {
+      background-color: #000;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
 
-.main-keys{
-    /* border: solid #fff; */
-    cursor: pointer;
-    border-radius: 0px 0px 50px 50px;
-    width: 1vw;
-    padding: 2vw;
-    margin: 0px 0.5vw;
-    font-family: "Neue Machina";
-    font-size: 2.2vw;
+  .main-board {
+      display: flex;
+      background-color: #5e3023;
+      padding: 2vw 5vw 4vw;
+      border-radius: 20px;
+      position: relative;
 
-}
+      /* border: 1px solid blue; */
+  }
 
-.pressed{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0000005a 100%);
-}
+  .bar-above {
+      position: absolute;
+      top: 2vw;
+      left: -23vw;
+      transform: translate(50%, 50%);
+      z-index: 1;
+      width: 55vw;
+      height: 3vw;
+      border-radius: 36px;
+      background: linear-gradient(180deg, #323337 0%, #565656 20.83%, #696666 38.33%, #3E3D3D 63.54%, #2D2D2D 100%);
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.30);
+  }
+
+  .bar-below {
+    position: absolute;
+    top: 12vh;
+    left: -23vw;
+    transform: translate(50%, 50%);
+    width: 55vw;
+    height: 3vh;
+      border-radius: 36px;
+      background: linear-gradient(180deg, #2A2A2A 0%, #000 20.83%, #606060 63.54%, #2D2D2D 100%);
+      box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .main-keys {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      border-radius: 0px 0px 50px 50px;
+      width: 1vw;
+      padding: 8vh 2vw 0vw;
+      margin: 0px 0.5vw;
+      font-family: 'Dorsa', sans-serif;
+      font-size: 4.5vw;
+      letter-spacing: 1px;
+  }
+
+  .main-keys::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      mix-blend-mode: hard-light;
+      background-image: linear-gradient(180deg, #4D5455 1.23%, #9EA1A1 25.66%, #848B8A 37.02%, #4B5355 75.37%, #757A7B 80.4%, #4D5455 92.13%);
+  }
 
 
-div[data-key="a"], [data-key="l"] {
-    background-color: #007f5f;
-    height: 15vh;
-    
-}
-div[data-key="s"], [data-key="k"] {
-    background-color: #2b9348;
-    height: 25vh;
-}
-div[data-key="d"], [data-key="j"] {
-    background-color: #55a630;
-    height: 35vh;
-}
+  .submain-key {
+      text-align: center;
+      font-size: 1.5vw;
+      width: 2vw;
+      height: 2vw;
+      background-color: #000;
+      border: 1px solid #ffffff8f;
+      border-radius: 50%;
+      color: #aacc00;
+      font-family: monospace;
+  }
 
-div[data-key="f"], [data-key="h"] {
-    background-color: #80b918;
-    height: 45vh;
-}
-div[data-key="g"]{
-    background-color: #aacc00;
-    height: 55vh;
-}
+  .pressed {
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0000005a 100%);
+  }
+
+
+  div[data-key="a"],
+  [data-key="l"] {
+      background-color: #007f5f;
+      height: 15vh;
+
+  }
+
+  div[data-key="s"],
+  [data-key="k"] {
+      background-color: #2b9348;
+      height: 25vh;
+  }
+
+  div[data-key="d"],
+  [data-key="j"] {
+      background-color: #55a630;
+      height: 35vh;
+  }
+
+  div[data-key="f"],
+  [data-key="h"] {
+      background-color: #80b918;
+      height: 45vh;
+  }
+
+  div[data-key="g"] {
+      background-color: #aacc00;
+      height: 55vh;
+  }
