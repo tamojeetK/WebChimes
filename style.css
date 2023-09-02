@@ -33,15 +33,14 @@ body,html{
 }
 
 .pressed{
-    /* border-radius: 0px 0px 50px 50px; */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
-    mix-blend-mode: soft-light;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0000005a 100%);
 }
 
 
 div[data-key="a"], [data-key="l"] {
     background-color: #007f5f;
     height: 15vh;
+    
 }
 div[data-key="s"], [data-key="k"] {
     background-color: #2b9348;
