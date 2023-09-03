@@ -92,6 +92,8 @@
       font-family: 'Dorsa', sans-serif;
       font-size: 4.5vw;
       letter-spacing: 1px;
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.30);
+
   }
 
   .main-keys::before {
