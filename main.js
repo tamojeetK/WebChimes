@@ -17,15 +17,16 @@ document.addEventListener("keyup", function (e) {
 });
 
 
-
 window.addEventListener("load", () => {
     let loader = document.querySelector(".preloader");
-    loader.classList.add("preloader-hidden");
+    setTimeout(() => {
+        loader.classList.add("preloader-hidden");
+        loader.addEventListener("transitionend", () => {
+            document.body.removeChild(loader);
+        });
+    }, 2000);
+});
 
-    loader.addEventListener("transitionend", () => {
-        document.body.removeChild(loader);
-    })
-})
 
 
 
