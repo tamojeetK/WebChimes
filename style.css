@@ -436,3 +436,17 @@
           /* resize: both; */
       }
   }
+
+  .preloader{
+    background: #80b918 url(./img/frog.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: opacity 0.75s, visibility 0.75s;
+  }
+  .preloader-hidden{
+    opacity: 0;
+    visibility: none;
+  }

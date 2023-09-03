@@ -17,6 +17,13 @@ document.addEventListener("keyup", function (e) {
 });
 
 
+
+window.addEventListener("load", () => {
+    let loader = document.querySelector(".preloader");
+    loader.classList.add("preloader-hidden");
+})
+
+
 // ------------============for MOUSE Click============------------
 // const keys = document.querySelectorAll('.main-keys');
 // keys.forEach(key => {
