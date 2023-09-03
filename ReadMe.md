@@ -1,23 +1,24 @@
-# Kalimba
+# 🎼Kalimba
 
-Kalimba is a musical instrument that consists of a wooden board or a box resonator with metal tines attached to it. The tines are plucked with the thumbs or fingers to produce a melodic and soothing sound. Kalimba is also known as a thumb piano, a finger harp, or a sansa.
+![Gif-kalimba](https://github.com/tamojeetK/Webimba/assets/89387048/7da4676a-5c0c-4303-9e90-ff0f4e35cad4)
+
+*Kalimba* is a musical instrument that consists of a wooden board or a box resonator with metal tines attached to it. The tines are plucked with the thumbs or fingers to produce a melodic and soothing sound. Kalimba is also known as a thumb piano, a finger harp, or a sansa.
 
 Kalimba is a modern instrument that was designed by Hugh Tracey, an English ethnomusicologist, in the 1950s. He based it on the Mbira, an ancient instrument from Zimbabwe, and popularized it worldwide. Kalimba has a Western scale that follows the seven-note diatonic scale used in Western music. The notes on the Kalimba are usually tuned to C major, G major, or F major, but they can also be tuned to other scales.
 
 Kalimba is easy to play and can be used for various purposes, such as meditation, relaxation, entertainment, education, and therapy. Kalimba can also be combined with other instruments or vocals to create different genres of music, such as folk, pop, jazz, classical, and more.
 
-## How to play Kalimba
+## 👀How to play Kalimba
 
-To play Kalimba, you need to hold it in your hands and pluck the tines with your thumbs or fingers. The tines are arranged in a linear order from left to right, with the longest tine in the middle and the shortest tine at the ends. The longest tine produces the lowest note and the shortest tine produces the highest note.
+*The tines are arranged in a linear order from left to right, with the longest tine in the middle and the shortest tine at the ends. The longest tine produces the lowest note and the shortest tine produces the highest note.*
 
 You can play Kalimba by following these steps:
 
-1. Hold the Kalimba in your hands with your thumbs on the front side and your fingers on the back side. You can also place it on a table or a stand if you prefer.
-2. Pluck the tines with your thumbs or fingers to produce sound. You can use your nails or fingertips to pluck the tines. You can also use both hands or one hand to play the Kalimba.
-3. Experiment with different patterns and rhythms to create melodies and harmonies. You can also use the holes on the resonator to create a wah-wah effect by covering and uncovering them with your fingers.
-4. Enjoy playing Kalimba and explore its musical possibilities.
+1. To play the Kalimba, use the keys `A`, `S`, `D`, `F`, `G`, `H`, `J`, `K`, `L` on your keyboard to pluck the metal tines and produce the beautiful sound (❁´◡`❁).
+2. Experiment with different patterns and rhythms to create melodies and harmonies. 🎧*Use headphones/earphones for better experience*.
+3. Enjoy playing Kalimba and explore its musical possibilities.
 
-## Kalimba's connection with Mbira
+## 🖇️Kalimba's connection with Mbira
 
 Kalimba is connected to Mbira in many ways, as they are both musical instruments that belong to
 the lamellaphone family, which means they have metal or bamboo tongues that are plucked
