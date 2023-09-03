@@ -1,4 +1,5 @@
-# 🎼Kalimba
+# ![favicon-16x16](https://github.com/tamojeetK/Webimba/assets/89387048/dd911e46-e4ad-4ba1-b627-6cb550e92cb9) Webimba -*your virtual Kalimba*
+
 
 ![Gif-kalimba](https://github.com/tamojeetK/Webimba/assets/89387048/7da4676a-5c0c-4303-9e90-ff0f4e35cad4)
 
@@ -8,7 +9,7 @@ Kalimba is a modern instrument that was designed by Hugh Tracey, an English ethn
 
 Kalimba is easy to play and can be used for various purposes, such as meditation, relaxation, entertainment, education, and therapy. Kalimba can also be combined with other instruments or vocals to create different genres of music, such as folk, pop, jazz, classical, and more.
 
-## 👀How to play Kalimba
+## 👀How to play Webimba
 
 *The tines are arranged in a linear order from left to right, with the longest tine in the middle and the shortest tine at the ends. The longest tine produces the lowest note and the shortest tine produces the highest note.*
 
