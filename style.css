@@ -448,5 +448,5 @@
   }
   .preloader-hidden{
     opacity: 0;
-    visibility: none;
+    visibility: hidden;
   }

@@ -23,9 +23,10 @@ window.addEventListener("load", () => {
     loader.classList.add("preloader-hidden");
 
     loader.addEventListener("transitionend", () => {
-        document.body.removeChild(".preloader");
+        document.body.removeChild(loader);
     })
 })
+
 
 
 // ------------============for MOUSE Click============------------
