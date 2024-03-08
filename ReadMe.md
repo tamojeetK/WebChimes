@@ -1,7 +1,7 @@
 # ![favicon-16x16](https://github.com/tamojeetK/Webimba/assets/89387048/dd911e46-e4ad-4ba1-b627-6cb550e92cb9) WebChimes -*your virtual Kalimba*
 
 
-![Gif-kalimba](https://github.com/tamojeetK/Webimba/assets/89387048/7da4676a-5c0c-4303-9e90-ff0f4e35cad4)
+![Gif-kalimba](https://github.com/tamojeetK/WebChimes/assets/89387048/7da4676a-5c0c-4303-9e90-ff0f4e35cad4)
 
 *Kalimba* is a musical instrument that consists of a wooden board or a box resonator with metal tines attached to it. The tines are plucked with the thumbs or fingers to produce a melodic and soothing sound. Kalimba is also known as a thumb piano, a finger harp, or a sansa.
 
@@ -9,7 +9,7 @@ Kalimba is a modern instrument that was designed by Hugh Tracey, an English ethn
 
 Kalimba is easy to play and can be used for various purposes, such as meditation, relaxation, entertainment, education, and therapy. Kalimba can also be combined with other instruments or vocals to create different genres of music, such as folk, pop, jazz, classical, and more.
 
-## 👀How to play Webimba
+## 👀How to play WebChimes
 
 *The tines are arranged in a linear order from left to right, with the longest tine in the middle and the shortest tine at the ends. The longest tine produces the lowest note and the shortest tine produces the highest note.*
 
