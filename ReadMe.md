@@ -1,4 +1,4 @@
-# ![favicon-16x16](https://github.com/tamojeetK/Webimba/assets/89387048/dd911e46-e4ad-4ba1-b627-6cb550e92cb9) Webimba -*your virtual Kalimba*
+# ![favicon-16x16](https://github.com/tamojeetK/Webimba/assets/89387048/dd911e46-e4ad-4ba1-b627-6cb550e92cb9) WebChimes -*your virtual Kalimba*
 
 
 ![Gif-kalimba](https://github.com/tamojeetK/Webimba/assets/89387048/7da4676a-5c0c-4303-9e90-ff0f4e35cad4)
